@@ -34,7 +34,7 @@
     - No central Backend/DB
     - More theory than practice
 
-- API requests for blockchain node - RTC - Remote Procedure Call
+- API requests for blockchain node - RPC - Remote Procedure Call
 
 ## Blockchain
 
