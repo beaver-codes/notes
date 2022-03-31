@@ -18,9 +18,11 @@
 
 - API requests for backend - REST
 
+```
 * [ FE ] -> [ BE ] -> [ DB ]
 * [ FE ] -> [ Firebase DB ]
 *        -> [ Firebase Cloud Functions ]
+```
 
 ### Web3.0
 
