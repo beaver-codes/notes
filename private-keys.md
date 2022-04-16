@@ -34,3 +34,7 @@
 - A way to derive multiple private keys
 
 - More human friendly
+
+## Coding Time!
+
+- Private key generator
