@@ -1,18 +1,13 @@
 #! /bin/node
 
-/**
- * PRIVATE KEY GENERATOR
- */
-const LENGHT = 64;
+const LENGTH = 64;
 
 let result = '';
 
+for (let counter = 0; counter < LENGTH; counter++) {
+    const rand = Math.round(Math.random() * 15);
 
-for (let counter = 0; counter < LENGHT; counter++) {
-    const number = Math.round(Math.random() * 15);
-
-    result += number.toString(16);
+    result += rand.toString(16);
 }
 
-
-console.log('Private Key: ', result);
+console.log('Private key is', result)
